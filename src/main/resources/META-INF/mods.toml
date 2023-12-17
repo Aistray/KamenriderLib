@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="kamenriderlib"
+# The version number of the mod
+version="0.1" #mandatory
+# A display name for the mod
+displayName="kamenriderlib"
+authors="aistray" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='The Great Kamen Rider Api  伟大的假面骑士Api，所有假面骑士模组作者都要臣服于我，哈哈哈（开玩笑的）'
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.kamenriderlib]] #optional
+   # the modid of the dependency
+   modId="forge" #mandatory
+   # Does this dependency have to exist - if not, ordering below must be specified
+   mandatory=true #mandatory
+   # The version range of the dependency
+   versionRange="${forge_version_range}" #mandatory
+   # An ordering relationship for the dependency - BEFORE or AFTER required if the dependency is not mandatory
+   # BEFORE - This mod is loaded BEFORE the dependency
+   # AFTER - This mod is loaded AFTER the dependency
+   ordering="NONE"
+   # Side this dependency is applied on - BOTH, CLIENT, or SERVER
+   side="BOTH"# Here's another dependency
+[[dependencies.kamenriderlib]]
+   modId="minecraft"
+   mandatory=true
+   # This version range declares a minimum of the current minecraft version up to but not including the next major version
+   versionRange="${minecraft_version_range}"
+   ordering="NONE"
+   side="BOTH"

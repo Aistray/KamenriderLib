@@ -1,0 +1,64 @@
+{
+  "mappings": {
+    "kamenriderlibfix/kamenriderlib/mixin/MinecraftMixin": {
+      "Lnet/minecraft/client/renderer/GameRenderer;render(FJZ)V": "Lnet/minecraft/client/renderer/GameRenderer;m_109093_(FJZ)V",
+      "runTick": "Lnet/minecraft/client/Minecraft;m_91383_(Z)V"
+    },
+    "kamenriderlibfix/kamenriderlib/mixin/Particle": {
+      "tick": "Lnet/minecraft/client/particle/ParticleEngine;m_107388_()V"
+    },
+    "kamenriderlibfix/kamenriderlib/mixin/ServerLevelMixin": {
+      "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+      "tickCustomSpawners": "Lnet/minecraft/server/level/ServerLevel;m_8799_(ZZ)V",
+      "tickTime": "Lnet/minecraft/server/level/ServerLevel;m_8809_()V",
+      "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V",
+      "tickPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8662_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+    },
+    "kamenriderlibfix/kamenriderlib/mixin/LevelRendererMixin": {
+      "tickRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V",
+      "tick": "Lnet/minecraft/client/renderer/LevelRenderer;m_109823_()V"
+    },
+    "kamenriderlibfix/kamenriderlib/mixin/ClientLevelMixiin": {
+      "tickNonPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104639_(Lnet/minecraft/world/entity/Entity;)V",
+      "tickTime": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104826_()V",
+      "tick": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104726_(Ljava/util/function/BooleanSupplier;)V",
+      "tickPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104641_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V",
+      "doAnimateTick": "Lnet/minecraft/client/multiplayer/ClientLevel;m_194142_(IIIILjava/util/Random;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos$MutableBlockPos;)V"
+    },
+    "kamenriderlibfix/kamenriderlib/mixin/TextureMixin": {
+      "tick": "Lnet/minecraft/client/renderer/texture/TextureManager;m_7673_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "kamenriderlibfix/kamenriderlib/mixin/MinecraftMixin": {
+        "Lnet/minecraft/client/renderer/GameRenderer;render(FJZ)V": "Lnet/minecraft/client/renderer/GameRenderer;m_109093_(FJZ)V",
+        "runTick": "Lnet/minecraft/client/Minecraft;m_91383_(Z)V"
+      },
+      "kamenriderlibfix/kamenriderlib/mixin/Particle": {
+        "tick": "Lnet/minecraft/client/particle/ParticleEngine;m_107388_()V"
+      },
+      "kamenriderlibfix/kamenriderlib/mixin/ServerLevelMixin": {
+        "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+        "tickCustomSpawners": "Lnet/minecraft/server/level/ServerLevel;m_8799_(ZZ)V",
+        "tickTime": "Lnet/minecraft/server/level/ServerLevel;m_8809_()V",
+        "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V",
+        "tickPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8662_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+      },
+      "kamenriderlibfix/kamenriderlib/mixin/LevelRendererMixin": {
+        "tickRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V",
+        "tick": "Lnet/minecraft/client/renderer/LevelRenderer;m_109823_()V"
+      },
+      "kamenriderlibfix/kamenriderlib/mixin/ClientLevelMixiin": {
+        "tickNonPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104639_(Lnet/minecraft/world/entity/Entity;)V",
+        "tickTime": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104826_()V",
+        "tick": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104726_(Ljava/util/function/BooleanSupplier;)V",
+        "tickPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104641_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V",
+        "doAnimateTick": "Lnet/minecraft/client/multiplayer/ClientLevel;m_194142_(IIIILjava/util/Random;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos$MutableBlockPos;)V"
+      },
+      "kamenriderlibfix/kamenriderlib/mixin/TextureMixin": {
+        "tick": "Lnet/minecraft/client/renderer/texture/TextureManager;m_7673_()V"
+      }
+    }
+  }
+}

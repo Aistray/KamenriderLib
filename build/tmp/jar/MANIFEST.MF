@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: kamenriderlib
+Specification-Vendor: Aistray
+Specification-Version: 1
+Implementation-Title: KamenriderLib
+Implementation-Version: 0.1-ALPHA-MAX
+Implementation-Vendor: Aistray
+Implementation-Timestamp: 2023-12-17T18:17:06+0800
+MixinConfigs: kamenriderlib.mixins.json
+
